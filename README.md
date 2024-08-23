@@ -109,20 +109,7 @@ This project demonstrates how to deploy a static website using Amazon S3 and AWS
 4. **Deploy the Service:**
    - ECS will manage the deployment of your containerized service.
 
-### Step 5: Integrate AWS Amplify with Your ECS Service
-
-1. **Update Environment Variables:**
-   - In AWS Amplify, go to **Environment variables**.
-   - Add any necessary environment variables required by your ECS service.
-
-2. **Configure Custom Domains (if needed):**
-   - Go to **Domain management** in Amplify.
-   - Set up DNS records to point to your ECS service or use a load balancer.
-
-3. **Update Build Settings (if needed):**
-   - Update the `amplify.yml` file in your Amplify app to include any required build commands or scripts.
-
-### Step 6: Test and Monitor
+### Step 5: Test and Monitor
 
 1. **Push Changes to GitHub:**
    - Make changes to your static site or containerized service and push them to your GitHub repository.
@@ -131,7 +118,7 @@ This project demonstrates how to deploy a static website using Amazon S3 and AWS
    - Check AWS Amplify and ECS for deployment statuses and logs.
 
 3. **Troubleshoot Issues:**
-   - Use CloudWatch logs to diagnose and troubleshoot any issues with the integrations.
+   - Use CloudWatch logs to diagnose and troubleshoot any issues.
 
 ## Conclusion
 
