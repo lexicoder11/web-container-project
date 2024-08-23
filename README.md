@@ -1,6 +1,6 @@
 Containerized Static Website with CI/CD on AWS
 Project Overview
-This project demonstrates how to deploy a static website using Amazon S3 and AWS Amplify and integrate it with a containerized service using Docker and AWS Fargate. The setup includes CI/CD pipelines for automated deployment and management.
+This project demonstrates how to deploy a static website using Amazon S3 and AWS Amplify and integrate it with a containerized service using Docker and AWS Fargate. The setup includes CI/CD pipelines for automated deploymet and management.
 
 Architecture
 Amazon S3: Hosts the static website.
